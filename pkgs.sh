@@ -1,4 +1,4 @@
-sudo pacman -S npm neofetch hyprland waybar kitty base-devel cmake unzip ninja curl 
+sudo pacman -S npm wget neofetch hyprland waybar kitty base-devel cmake unzip ninja curl 
 pacman -S --needed base-devel openssl zlib xz tk
 git clone https://github.com/neovim/neovim
 cd neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo
@@ -10,3 +10,6 @@ echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.
 echo 'eval "$(pyenv init -)"' >> ~/.bashrc
 echo 'alias vi="nvim"' >> ~/.bashrc
 echo 'alias vim="nvim"' >> ~/.bashrc
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/JetBrainsMono.zip
+mkdir .local .local/share
+unzip ~/JetBrainsMono.zip -d ~/.local/share/fonts
