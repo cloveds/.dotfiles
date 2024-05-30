@@ -1,4 +1,4 @@
-sudo pacman -S npm wpaperd luarocks wget neofetch hyprland waybar kitty base-devel cmake unzip ninja curl 
+sudo pacman -S git npm wpaperd luarocks wget neofetch hyprland waybar kitty base-devel cmake unzip ninja curl 
 pacman -S --needed base-devel openssl zlib xz tk
 git clone https://github.com/neovim/neovim
 cd neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo
