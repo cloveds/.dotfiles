@@ -1,16 +1,16 @@
 * {
     border:        none;
     border-radius: 0;
-    font-family:   "monospace";
-    font-size:     10px;
+    font-family:   "JetBrainsMono";
+    font-size:     16px;
     box-shadow:    none;
     text-shadow:   none;
     transition-duration: 0s;
 }
 
 window#waybar {
-    color: rgba(53, 185, 171, 1);
     background-color: #282c34;
+    color: #ABB2BF
 }
 
 window#waybar.solo {
