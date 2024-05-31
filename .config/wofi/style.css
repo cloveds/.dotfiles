@@ -1,0 +1,61 @@
+window {
+    margin: 0px;
+    border: 2px solid #61afef;
+    background-color: #282c34;
+    border-radius: 18px;
+
+
+    }
+    
+    #input {
+    margin: 5px;
+    border: none;
+    color: #ABB2bf;
+    border-radius: 15px;
+    background-color: #282c34;
+    }
+    
+    #inner-box {
+    margin: 5px;
+    border: none;
+    border-radius: 15px;
+    background-color: #282c34;
+    }
+    
+    #outer-box {
+    margin: 5px;
+    border: none;
+    border-radius: 15px;
+    background-color: #282c34;
+    }
+    
+    #scroll {
+    margin: 0px;
+    border-radius: 15px;
+    border: none;
+    }
+    
+    #text {
+    border-radius: 15px;
+    margin: 5px;
+    border: none;
+    color: #ABB2bf;
+    } 
+    
+    #entry.activatable #text {
+    color: #282c34;
+    }
+    
+    #entry > * {
+    color: #ABB2bf;
+    }
+    
+    #entry:selected {
+        border-radius: 15px;
+        background-color: #61afef;
+    }
+    
+    #entry:selected #text {
+        border-radius: 15px;
+        color: #282c34
+    }
