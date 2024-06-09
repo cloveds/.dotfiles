@@ -207,6 +207,5 @@ vim.opt.showtabline = 0
 vim.opt.cursorlineopt = "number"
 vim.opt.expandtab = true
 vim.opt.scrolloff = 8
-vim.opt.guicursor = "i:block"
 vim.cmd.syntax = "enable"
 vim.cmd [[filetype plugin indent on]]
