@@ -1,4 +1,5 @@
 sudo zypper install git npm hyprland waybar ninja cmake gcc-c++ gettext-tools curl mesa rust-wayland-client libwayland-egl gcc automake bzip2 libbz2-devel xz xz-devel openssl-devel ncurses-devel readline-devel zlib-devel tk-devel libffi-devel sqlite3-devel gdbm-devel make findutils patch
+sudo zypper install neofetch go grim slurp
 git clone https://github.com/neovim/neovim
 cd neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo
 sudo make install
