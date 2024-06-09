@@ -80,7 +80,7 @@ window#waybar.hidden {
 	border-radius: 10px;
 	transition: none;
 	color: #282c34;
-	background: #bd93f9;
+	background: #c678dd;
 }
 
 #pulseaudio {
@@ -92,7 +92,7 @@ window#waybar.hidden {
 	border-radius: 10px;
 	transition: none;
 	color: #282c34;
-	background: #FAE3B0;
+	background: #e5c07b;
 }
 
 #battery {
@@ -113,7 +113,7 @@ window#waybar.hidden {
 }
 
 #battery.critical:not(.charging) {
-    background-color: #B5E8E0;
+    background-color: #56b6c2;
     color: #282c34;
     animation-name: blink;
     animation-duration: 0.5s;
@@ -138,7 +138,7 @@ window#waybar.hidden {
 	border-radius: 10px;
 	transition: none;
 	color: #282c34;
-	background: #F8BD96;
+	background: #e5c07b;
 }
 #clock {
 	margin-top: 6px;
